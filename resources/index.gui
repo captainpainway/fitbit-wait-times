@@ -1,0 +1,54 @@
+<svg>
+  <defs>
+    <symbol id="my-tile-item" href="#tile-list-item" height="50" focusable="false"
+            pointer-events="none" system-events="all" display="none">
+      <rect id="bg" height="100%" width="100%" />
+      <text id="text" fill="white" y="35" x="5" text-length="27" font-size="28" />
+      <text id="time" fill="white" y="35" x="250" text-length="3" font-size="28" />
+      <rect id="tile-divider-bottom" class="list-separator" />
+    </symbol>
+  </defs>
+  <use id="my-list" href="#tile-list" x="0" y="90" height="70%">
+    <var id="virtual" value="1" />
+    <var id="separator-height-bottom" value="2" />
+
+    <use id="my-pool" href="#tile-list-pool">
+      <use id="my-pool[0]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[1]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[2]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[3]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[4]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[5]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[6]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[7]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[8]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[9]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[10]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[11]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[12]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[13]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[14]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[15]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[16]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[17]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[18]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[19]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[20]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[21]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[22]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[23]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[24]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[25]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[26]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[27]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[28]" href="#my-tile-item" class="tile-list-item" />
+      <use id="my-pool[29]" href="#my-tile-item" class="tile-list-item" />
+    </use>
+  </use>
+  <rect height="90" width="100%" fill="black" />
+  <text id="clock" fill="white" y="45" x="5" text-length="20" font-size="45" />
+  <use id="refresh" href="#square-button-icon" y="-5" x="220" width="90" height="90">
+    <set href="#image" attributeName="href" to="refresh.png" />
+  </use>
+  <text id="lastrefreshed" fill="white" y="75" x="5" text-length="30" font-size="20" />
+</svg>

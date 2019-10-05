@@ -1,0 +1,32 @@
+{
+  "name": "wdwwaittimes",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "^4.0.0-pre.4",
+    "@fitbit/sdk-cli": "^1.7.0-pre.1"
+  },
+  "fitbit": {
+    "appUUID": "d1c41602-28a6-406a-a986-5c7046d4e0f0",
+    "appType": "app",
+    "appDisplayName": "Wait Times",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {
+    "cron": "^1.7.2"
+  }
+}
